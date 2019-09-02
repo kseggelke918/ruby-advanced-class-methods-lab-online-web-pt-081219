@@ -37,7 +37,7 @@ class Song
     if @@all.include?(song_name)
        
     else 
-      self.class.new_by_name
+      self.class.create_by_name
   end 
   
 end
