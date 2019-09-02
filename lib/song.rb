@@ -55,7 +55,7 @@ class Song
     file = file_name.split(" - ")
     song.name = file[1].split(".")[0]
     song.artist_name = file[0]
-    self.save 
+    @@all << song  
   end 
   
 end
