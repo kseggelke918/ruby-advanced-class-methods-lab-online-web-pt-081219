@@ -33,6 +33,7 @@ class Song
     @@all.find {|song| song.name == song_name}
   end 
   
+  def 
   
 end
 
