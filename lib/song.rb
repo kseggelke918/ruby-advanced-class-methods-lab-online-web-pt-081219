@@ -47,7 +47,7 @@ class Song
     song.artist_name = song_and_artist[0]
     song_split = song_and_artist[1].split(".")
     song.name = song_split[0]
-    binding.pry 
+    #binding.pry 
     
   end 
   
