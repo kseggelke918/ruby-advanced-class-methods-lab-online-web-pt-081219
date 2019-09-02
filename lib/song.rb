@@ -44,12 +44,10 @@ class Song
   
   def self.new_from_filename(file_name)
     song = self.new
-    new
-
-    # song_and_artist = file_name.split(" - ")
-    # song.artist_name = song_and_artist[0]
-    # song_split = song_and_artist[1].split(".")
-    # song = song_split[0]
+    song_and_artist = file_name.split(" - ")
+    song.artist_name = song_and_artist[0]
+    song_split = song_and_artist[1].split(".")
+    song.name = song_split[0]
     #binding.pry 
     
   end 
