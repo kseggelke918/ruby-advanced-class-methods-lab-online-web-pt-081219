@@ -48,13 +48,8 @@ class Song
     song.name = file[1].split(".")[0]
     song.artist_name = file[0]
     song 
-    # song_and_artist = file_name.split(" - ")
-    # song.artist_name = song_and_artist[0]
-    # song_split = song_and_artist[1].split(".")
-    # song.name = song_split[0]
-    #binding.pry 
-    
   end 
+  
   
 end
 
