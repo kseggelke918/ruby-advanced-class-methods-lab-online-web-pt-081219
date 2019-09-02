@@ -41,7 +41,8 @@ class Song
     @@all.sort_by {|word| word.name}
   end
   
-  def self.new_from_filename
+  def self.new_from_filename(file_name)
+    file_name.split("-")
     
   end 
   
