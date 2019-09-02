@@ -38,6 +38,7 @@ class Song
       self.class.find_by_name 
     else 
       self.class.create_by_name
+    end 
   end 
   
 end
