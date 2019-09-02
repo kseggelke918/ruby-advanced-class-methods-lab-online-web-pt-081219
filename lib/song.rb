@@ -43,9 +43,8 @@ class Song
   end
   
   def self.new_from_filename(file_name)
-    song_and_artist = file_name.split("-")
+    song_and_artist = file_name.split(" - ")
     binding.pry 
-    #song = song_and_artist.collect do |
     
   end 
   
