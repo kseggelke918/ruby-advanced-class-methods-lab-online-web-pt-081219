@@ -46,7 +46,7 @@ class Song
     song_and_artist = file_name.split(" - ")
     artist = song_and_artist[0]
     no_mp3 = song_and_artist[1].split(".")
-    song = no_mp3[1]
+    song = no_mp3[0]
     binding.pry 
     
   end 
